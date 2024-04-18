@@ -18,6 +18,7 @@ const NewUserPage = async () => {
   return (
     <div>
       <h1>NewUserPage</h1>
+      <p>{new Date().toLocaleTimeString()}</p>
       <ul>
         {users.map((user) => (
           <div key={user.id}>
